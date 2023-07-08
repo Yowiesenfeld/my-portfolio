@@ -1,0 +1,41 @@
+/* Selecting an element by tag name */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+    padding: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+h1{
+    color: rgb(244, 246, 247);
+    font-size: 25px; 
+    float: left;
+    display: inline-block;
+ }
+ nav{
+    color: rgb(234, 238, 248);
+    font-size: 25px;
+    float: right;
+ }
+
+ h2 { 
+    color: rgb(98, 186, 226);
+    font-size: 25px; 
+    float: left;
+ } 
+ p {
+    color:darkturquoise;
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    float: right;
+ }
