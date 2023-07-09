@@ -1,41 +1,67 @@
 /* Selecting an element by tag name */
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+   background-color: rgb(200, 215, 255);
 }
 
 .header {
-    padding: 35px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
+   padding: 50px;
+   background-color: rgb(11, 2, 90);
+   
 }
 
-h1{
-    color: rgb(244, 246, 247);
-    font-size: 25px; 
-    float: left;
-    display: inline-block;
- }
- nav{
-    color: rgb(234, 238, 248);
-    font-size: 25px;
-    float: right;
- }
+h1 {
+   color: rgb(11, 166, 243);
+   font-size: 30px;
+   float: left;
+   display: inline-block;
+   background-color: rgb(245, 26, 10);
+   width: 150px;
+   height: 50px;
+   margin-top: -20px;
+}
+/* this tells the html code how to present "my portfilio" on the top of the page. */
+nav {
+   color: rgb(8, 8, 8);
+   font-size: 25px;
+   float: right;
+   background-color: red;
+}
 
- h2 { 
-    color: rgb(98, 186, 226);
-    font-size: 25px; 
-    float: left;
- } 
- p {
-    color:darkturquoise;
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-size: cover;
-    background-position: center;
-    float: right;
- }
+.hero {
+   height: 200px;
+   width: 100%;
+   margin-bottom: 25px;
+   background-image: url("https://static.vecteezy.com/system/resources/previews/002/405/713/original/floral-hand-drawn-frame-border-decorative-design-element-free-vector.jpg");
+   background-size: cover;
+   background-position: center;
+}
+/* added in the hero */
+a {
+   background-color: black;
+}
+
+/* designed top of the webpage */
+h2 {
+   border-right: 3px solid red;
+   color: rgb(2, 18, 26);
+   font-size: 25px;
+   float: left;
+}
+
+p {
+   color: darkturquoise;
+   height: 800px;
+   width: 100%;
+   margin-bottom: 25px;
+   background-size: cover;
+   background-position: center;
+   float: right;
+}
+
+ol {
+
+}
