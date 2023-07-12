@@ -1,19 +1,21 @@
 /* Selecting an element by tag name */
+@media {
 
 * {
    box-sizing: border-box;
    padding: 0;
    margin: 0;
    background-color: rgb(200, 215, 255);
+ 
+
 }
+
 
 
 /* styled the webpage background */
 .header {
    padding: 50px;
-   background-color: rgb(11, 2, 90);
-
-   
+   background-color: rgb(11, 2, 90); 
 }
 
 .header h1 {
@@ -35,7 +37,7 @@
    float: right;
    background-color: red;
    margin-top: -25px;
-   width: 340px;
+   width: 375px;
    height: 50px;
    padding: 10px;
 }
@@ -45,88 +47,104 @@ a {
 }
 
 /* designed top of the webpage so that it makes sense logically */
-.section h2 { 
+
+.main {
+   display: flex;
+  flex-direction: column;
+  border: solid black 2px; 
+} 
+
+.section {
+   display: flex;
+   flex-direction: row;
+   border: solid blue 2px;
+   padding: 20px;
+   justify-content: center;
+}
+
+.head h2 {
+   border: solid black 2px;  
    border-right: 3px solid red;
    color: rgb(2, 18, 26);
-   padding-right: 10px;
-   text-align: right;
-   font-size: 60px;
-   float: left;
-   margin-top: 50px;
-   margin-left: 10px;
-   margin-right: 10px;
-   justify-content: flex-start;
+   height: 300px; 
    }
 
-.section p { 
+.text p { 
    color: darkturquoise;
    font-size: 20px;
-   text-align: left;
-   float: right;
-   margin-left: 10px;
-   margin-right: 10px;
-   margin-top: 50px;
+   /* text-align: left; */
+   background-color: white;
+   width: 1055px;
 
  }
 
 /* changing the text */
 /* added in the section called about me */
-.hero {
+.hero { 
    height: 200px;
    width: 100%;
-   margin-bottom: 25px;
-   padding:10px
    background-image: url("https://static.vecteezy.com/system/resources/previews/002/405/713/original/floral-hand-drawn-frame-border-decorative-design-element-free-vector.jpg");
    background-size: cover;
    background-position: center;
-   margin-left: 10px;
-   margin-right: 10px;
 }
-/* added in the hero */
+/* added in the hero  */
 
-.article h2 { 
+}
+
+.article{
+   display: flex;
+   flex-direction: row;
+   border: solid blue 2px; 
+}
+
+.head h2 {
+   display: flex;
+   flex-direction: column; 
    border-right: 3px solid red;
    color: rgb(2, 18, 26);
    padding-right: 10px;
-   text-align: right;
    font-size: 60px;
-   float: left;
-   margin-top: 50px;
-   margin-left: 10px;
-   margin-right: 10px;
+   background-color: purple;
+   justify-content: flex-start;
 }
 
-.article p { 
+.text ul li {
+   display: flex;
+   flex-direction: row; 
    color: darkturquoise;
-   font-size: 30px;
-   text-align: left;
-   float: right;
-   margin-top: 50px;
-   margin-left: 10px;
-   margin-right: 10px;
+   background-color: purple;
+   justify-content: space-between;
+   justify-content: flex-end;
 }
+.text ul li :hover {
+   color: aqua;
+} 
 
-
-.footer h2 {
+.head h2 {
    border-right: 3px solid red;
    color: rgb(2, 18, 26);
-   padding-right: 10px;
-   text-align: right;
-   font-size: 60px;
-   float: left;
-   margin-top: 65px;
-   margin-left: 10px;
-   margin-right: 10px;
+   font-size: 50px;
+   background-color: purple;;
+   justify-content: flex-start;
+   width: 148px;
 }
 
 
-.footer p {
+.footer ul li {
+   list-style-type: none;
    color: darkturquoise;
-   font-size: 30px;
+   border-bottom: 2px solid blue; 
+   font-size: 20px;
    text-align: left;
-   float: right;
+   float: left;
+   background-color: purple;
    margin-right: 10px;
-   margin-top: 65px;
+   margin-top: 80px;
    margin-left: 10px;
+   justify-content: space-between;
+  
 }
+
+
 /* having a hard time but i still want to save my progress */
+}
