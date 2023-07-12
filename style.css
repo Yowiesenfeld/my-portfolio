@@ -2,12 +2,10 @@
 @media {
 
 * {
-   box-sizing: border-box;
+   box-sizing: border-box; 
    padding: 0;
-   margin: 0;
+   margin: 0; 
    background-color: rgb(200, 215, 255);
- 
-
 }
 
 
@@ -19,15 +17,14 @@
 }
 
 .header h1 {
-   border-right: 3px solid red;
+   border-right: 3px solid red; 
    color: rgb(2, 18, 26);
-   padding: 10px;
-   text-align: right;
+   padding: 5px;
    font-size: 25px;
    float: left;
    background-color: rgb(245, 26, 10);
    width: 175px;
-   height: 50px;
+   height: 45px;
    margin-top: -25px;
 }
 /* this tells the html code how to present "my portfilio" on the top of the page. */
@@ -37,7 +34,7 @@
    float: right;
    background-color: red;
    margin-top: -25px;
-   width: 375px;
+   width: 355px;
    height: 50px;
    padding: 10px;
 }
@@ -46,40 +43,6 @@ a {
    background-color: black;
 }
 
-/* designed top of the webpage so that it makes sense logically */
-
-.main {
-   display: flex;
-  flex-direction: column;
-  border: solid black 2px; 
-} 
-
-.section {
-   display: flex;
-   flex-direction: row;
-   border: solid blue 2px;
-   padding: 20px;
-   justify-content: center;
-}
-
-.head h2 {
-   border: solid black 2px;  
-   border-right: 3px solid red;
-   color: rgb(2, 18, 26);
-   height: 300px; 
-   }
-
-.text p { 
-   color: darkturquoise;
-   font-size: 20px;
-   /* text-align: left; */
-   background-color: white;
-   width: 1055px;
-
- }
-
-/* changing the text */
-/* added in the section called about me */
 .hero { 
    height: 200px;
    width: 100%;
@@ -89,16 +52,66 @@ a {
 }
 /* added in the hero  */
 
+/* designed top of the webpage so that it makes sense logically */
+
+.main {
+   display: flex;
+   flex-direction: column;
+   border: solid black 5px; 
+} 
+
+.section {
+   display: flex;
+   flex-direction: row;
+   border: solid blue 2px;
+   justify-content: center; 
+}
+
+.head h2 {
+
+   padding: 20px;
+   border: solid black 2px;  
+   border-right: 3px solid red;
+   color: rgb(2, 18, 26);
+   height: 250px; 
+   font-size: 50px;
+   margin-top: 15px;
+   padding-bottom: 10px;
+   margin-bottom: 25px;
+   }
+
+.text p { 
+   color: darkturquoise;
+   font-size: 20px;
+   text-align: left;
+   background-color: white;
+   width: 1000px;
+   margin-left: 15px;
+   margin-top: 25px;
+
+ }
+
+/* changing the text */
+/* added in the section called about me */
+
+
 }
 
 .article{
    display: flex;
    flex-direction: row;
-   border: solid blue 2px; 
+   /* border: solid blue 2px; */
+   padding: 20px;
+   margin-left: 55px; 
 }
 
-.head h2 {
-   display: flex;
+/* .head h2 {
+   padding: 20px;
+   border: solid black 2px;  
+   border-right: 3px solid red;
+   color: rgb(2, 18, 26);
+   height: 300px; 
+   display: flex; 
    flex-direction: column; 
    border-right: 3px solid red;
    color: rgb(2, 18, 26);
@@ -106,28 +119,41 @@ a {
    font-size: 60px;
    background-color: purple;
    justify-content: flex-start;
-}
+} */
 
-.text ul li {
+.figure {
    display: flex;
-   flex-direction: row; 
+   width: 25px;
+   height:25px;
+   margin-top:50px;
+   flex-direction: row;
+   padding: 20px;
+}
+.happy {
+   width: 85px;
+   height: 85px;
+   display: flex;
    color: darkturquoise;
    background-color: purple;
    justify-content: space-between;
    justify-content: flex-end;
 }
-.text ul li :hover {
-   color: aqua;
-} 
+ 
+.footer { 
+   display: flex;
+   flex-direction: row;
+   border: solid blue 2px;
+   padding: 20px; 
+}
 
-.head h2 {
+/* .head h2 { 
    border-right: 3px solid red;
    color: rgb(2, 18, 26);
    font-size: 50px;
-   background-color: purple;;
-   justify-content: flex-start;
+   background-color: purple;
+   justify-content: flex-start; 
    width: 148px;
-}
+}*/
 
 
 .footer ul li {
@@ -142,9 +168,7 @@ a {
    margin-top: 80px;
    margin-left: 10px;
    justify-content: space-between;
-  
 }
 
 
 /* having a hard time but i still want to save my progress */
-}
