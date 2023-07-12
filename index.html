@@ -5,58 +5,76 @@
     <title>Yocheved Wiesenfeld</title>
     <!-- name of webpage -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <!-- connected the css style sheet -->
 
-<body>
-    <header class="header">
-        <h1>My Portfolio:</h1>
-        <nav>
-            <a href="#aboutMe">About Me</a>
-            <a href="#myWork">My Work</a>
-            <a href="#contactMe">Contact Me</a>
-        </nav>
-    </header>
+
+<header class="header">
+    <h1>My Portfolio:</h1>
+    <nav>
+        <a href="#aboutMe">About Me</a>
+        <a href="#myWork">My Work</a>
+        <a href="#contactMe">Contact Me</a>
+    </nav>
+</header>
+
     <img class="hero" src="https://static.vecteezy.com/system/resources/previews/002/405/713/original/floral-hand-drawn-frame-border-decorative-design-element-free-vector.jpg" alt="border">
     <!-- top of the webpage. connecting the links to the other sections on the webpage. added a photo to the top/hero-->
-   
-    <section class="section">
-        <h2 id="aboutMe">About<br> Me:</h2>
-            <img class="section" src="https://img.freepik.com/premium-vector/female-character-with-glasses-line-art-style_645574-87.jpg" alt="me" style="float:left;width:150px;height:150px;margin-top:50px;">
-                <p> Hi! My name is Yo Wiesenfeld. I lived in Jersey most of my life and I recently moved to Florida<br>
-                My main goal in life is to help people get the mental health help that they need. I espcially want to
-                help children and teenagers leave abusive situations <br>
-                and help them create a life for themselves. I was a teacher for a few years and I now decided that I
-                want to go into coding.<br>
+<div class="main"> 
+    <!-- parent element -->
+    <div class="section">
+        <!-- child element but also to parent to class head -->
+        <div class="head">
+        <h2 id="aboutMe">About<br> Me:<br></h2>
+        </div>
+        <div class="text">
+            <img class="section" src="https://img.freepik.com/premium-vector/female-character-with-glasses-line-art-style_645574-87.jpg" alt="me" style="float:right;width:120px;height:120px;margin-top:35px;margin-right: 165px;">
+
+            <p> Hi! My name is Yo Wiesenfeld. I lived in Jersey most of my life and I recently moved to Florida
+            My main goal in life is to help people get the mental health help that they need. I espcially want to
+            help children and teenagers leave abusive situations 
+            and help them create a life for themselves. I was a teacher for a few years and I now decided that I
+            want to go into coding.I really want to be good at this i dont think i will
             </p>
+        </div>
             <!--first paragraph to introduce myself to everyone  -->
             <!-- i added a picture to it -->
-    
-    </section>
-</body>
-
-<main>
-    <article class="article">
+    </div>
+    <div class="article">
+        <div class="head">
         <h2 id="myWork">My<br> Work:</h2>
-            <p>
-                It will stack on top of the sidebar once the screen hits 768px or
-                smaller. i just got a job. im so excited and nervios how am i gonna do everything all at once.<br>
-                what if i end up failing at school<br>
-                i want to go home also how am i gonna juggle everything?<br>
-            </p>
-    </article>
-    
-    <footer class="footer">
-        <h2 id="contactMe">Contact<br> Me:</h2>
-            <p>
-                Name: Yo Wiesenfeld 
-                Email: Ywiesenfeld1@gmail.com
-                Number: (845)430-7835
-                GitHub: https://github.com/Yowiesenfeld <br>
-            </p>
-    </footer>
+        </div>
+        <div class="text">
+            <figure>
+                <img class="article" src="https://media.giphy.com/media/6DGkdVKfnC96xwlb8V/giphy.gif" alt="recover" style="width:140px;height:140px;margin-top:50px;">   
+                <figcaption>Recover</figcaption>
+            </figure>
+            <figure>
+                <img class="article" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzcwb3Nid3Q1eHhkNW4wa2ZwMGNmcndleWMyZzU1ODRxOWRvNDVreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/DI6AV0AGefVIoHuQH8/giphy.gif" alt="itsok" style="width:140px;height:140px;">
+                <figcaption>Its Ok</figcaption>
+            </figure>
+            <figure>
+                <img class="article" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWh2cXhiMDJsYzdxOTZ3dTRmd3ZvNDAzMzFpZzAycjJ4N253dGw1YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uCaFyOIvQsgeXVIKRT/giphy.gif" alt="notalone" style="width:140px;height:140px;" >
+                <figcaption>You're Not Alone</figcaption>  
+                <img class="article" src="https://media.giphy.com/media/9oT6zDZPwsDD3j4z7c/giphy.gif" alt="healing" style="width:140px;height:140px;">
+            </figure>
+        </div>
+    </div>
 </main>
+<br>
+    <footer class="footer">
+        <div class="head">
+        <h2 id="contactMe">Contact<br> Me:</h2>
+        </div>
+            <ul>
+                <li>Yo Wiesenfeld</li>
+                <li>Ywiesenfeld1@gmail.com</li>
+                <li>(845)430-7835</li>
+                <li>https://github.com/Yowiesenfeld</li> 
+            </ul>
+    </footer>
 
 </html>
