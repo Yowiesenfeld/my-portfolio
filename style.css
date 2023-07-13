@@ -6,6 +6,7 @@
    padding: 0;
    margin: 0; 
    background-color: rgb(200, 215, 255);
+   font-family: cursive;
 }
 
 
@@ -13,52 +14,53 @@
 /* styled the webpage background */
 .header {
    padding: 50px;
-   background-color: rgb(11, 2, 90); 
+   background-color: rgb(100, 121, 167); 
 }
 
 .header h1 {
-   border-right: 3px solid red; 
+   border-right: 3px solid lightblue; 
    color: rgb(2, 18, 26);
    padding: 5px;
    font-size: 25px;
    float: left;
-   background-color: rgb(245, 26, 10);
+   background-color: rgb(100, 121, 167); 
    width: 175px;
-   height: 45px;
+   height: 65px;
    margin-top: -25px;
 }
 /* this tells the html code how to present "my portfilio" on the top of the page. */
 .header nav {
-   color: rgb(8, 8, 8);
+   color: (lightblue);
    font-size: 25px;
    float: right;
-   background-color: red;
+   background-color: rgb(100, 121, 167);
    margin-top: -25px;
-   width: 355px;
+   width: 405px;
    height: 50px;
    padding: 10px;
 }
 
 a {
-   background-color: black;
+   background-color: rgb(100, 121, 167);
 }
 
-.hero { 
-   
-   height: 200px;
+.hero {
+ /* background-image: url(file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg); Replace with the path to your hero background image */
+   background-size: cover;
+   background-position: center;
+   height: 135px; 
+   display: flex;
+   justify-content: center;
    width: 100%;
-   /* background-image: url("file:///C:/Users/18454/Downloads/Peach%20Creative%20Adobt%20Cat%20Animal%20Youtube%20Display%20Ad.svg"); */
-   /* background-size: cover; */
-   /* background-position: center; */
 }
 /* added in the hero  */
 
 /* designed top of the webpage so that it makes sense logically */
-
+file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg
 .main {
    display: flex;
    flex-direction: column;
-   border: solid black 5px;
+   /* border: solid black 5px; */
 
 } 
 
@@ -70,13 +72,14 @@ a {
 }
 
 .picture {
-   width: 100px;
+   width: 160px;
    height: 120px;
    padding: 20px;
+   margin-top: 45px;
 }
 .head h2 {
    padding: 20px;
-   border-right: 3px solid red;
+   border-right: 3px solid lightblue;
    color: rgb(2, 18, 26);
    text-align: right; 
    font-size: 50px;
@@ -93,8 +96,8 @@ a {
    /* background-color: white; */
    width: 1000px;
    height: 750;
-   margin-left: 15px;
-   margin-top: 25px;
+   margin-left: 25px;
+   margin-top: 50px;
  }
 
 /* changing the text */
@@ -111,10 +114,9 @@ a {
    margin-left: 50px;  
 }
 
-
 .happy figure {
-   width: 150px;
-   height: 150px;
+   width: 400px;
+   height: 400px;
    padding: 20px;
    display: inline-flex; 
    flex-direction: row;
@@ -126,20 +128,20 @@ a {
 .footer{
    display: flex;
    flex-direction: row;
-   border: solid blue 2px; 
+   /* border: solid blue 2px;  */
    padding: 20px;
    /* padding: 20px; */
-   border: solid black 2px;  
-   border-right: 3px solid red;
+   /* border: solid black 2px;   */
+   border-right: 3px solid lightblue;
    text-align: right;
+   font-size: 12;
 }
-   
 
 .footer ul li {
    list-style-type: none;
    flex-direction: column;
    color:black;
-   border-bottom: 2px solid blue;
+   border-bottom: 3px solid rgb(252, 176, 235);
    font-size: 20px;
    padding-bottom: 10px;
    margin-bottom: 25px;
