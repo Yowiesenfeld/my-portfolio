@@ -1,13 +1,24 @@
 /* Selecting an element by tag name */
 @media {
+   (max-width: 600px)
+}
+
+@font-face{
+   font-family: 'sara';
+   src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">);
+} 
+/* i added a new font family and named it Sara */
 
 * {
    box-sizing: border-box; 
    padding: 0;
    margin: 0; 
    background-color: rgb(200, 215, 255);
-   font-family: cursive;
+   font-family: 'sara', sans-serif;
 }
+
 
 
 
@@ -45,48 +56,44 @@ a {
 }
 
 .hero {
- /* background-image: url(file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg); Replace with the path to your hero background image */
-   background-size: cover;
-   background-position: center;
    height: 135px; 
-   display: flex;
-   justify-content: center;
    width: 100%;
 }
 /* added in the hero  */
 
 /* designed top of the webpage so that it makes sense logically */
-file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg
+/* file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg */
 .main {
    display: flex;
    flex-direction: column;
-   /* border: solid black 5px; */
+
+   /* border: solid black 5px;  */
 
 } 
 
 .section {
    display: flex;
-   flex-direction: row;
-   /* border: solid blue 2px; */
-   justify-content: center; 
+   flex-direction: row;  
 }
 
 .picture {
-   width: 160px;
-   height: 120px;
+   width: 210px;
+   height: 215px;
    padding: 20px;
-   margin-top: 45px;
+   margin-left: 100px;
 }
 .head h2 {
    padding: 20px;
    border-right: 3px solid lightblue;
    color: rgb(2, 18, 26);
-   text-align: right; 
+   text-align: left; 
    font-size: 50px;
-   margin-top: 15px;
+   margin-top: 35px;
    padding-bottom: 10px;
    margin-bottom: 25px;
+   margin-left: 100px;
    height: 150px;
+   width: 210px;
 }
 
 .text p { 
@@ -94,10 +101,10 @@ file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg
    font-size: 25px;
    text-align: left;
    /* background-color: white; */
-   width: 1000px;
-   height: 750;
+   width: 850px;
+   height: 750px;
    margin-left: 25px;
-   margin-top: 50px;
+   margin-top: 65px;
  }
 
 /* changing the text */
@@ -110,32 +117,62 @@ file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg
    display: flex;
    flex-direction: row;
    /* border: solid blue 2px; */
-   padding: 20px;
-   margin-left: 50px;  
+   padding: 20px;   
 }
+/* contains all my place holders for my work */
 
-.happy figure {
-   width: 400px;
-   height: 400px;
+/* .head 2 { 
    padding: 20px;
+   border-right: 3px solid lightblue;
+   color: rgb(2, 18, 26);
+   text-align: left; 
+   font-size: 50px;
+   margin-top: 15px;
+   padding-bottom: 10px;
+   margin-bottom: 25px;
+   /* height: 150px; */
+
+
+
+/* .happy img { 
+   width: 100px;
+   height: 100px;
+   padding: 20px;
+   margin-left: 50px;
    display: inline-flex; 
    flex-direction: row;
    align-content: space-around;
-}
+ } */
 
+ /* .image-section{ */
+   /* display: flex; */
+   /* flex-direction: column;  */
+   /* background-position: top left, top right, bottom left, bottom right; */ 
+.image-section-1:hover { 
+   transform: scale(1.1); 
+ }
 
+ .image-section-2:hover {
+   transform: scale(1.1); 
+ }
+ .image-section-3:hover {
+   transform: scale(1.1); 
+ }
+ .image-section-4:hover {
+   transform: scale(1.1); 
+ } 
+/* all my pictures to be in place of my work */
 
 .footer{
    display: flex;
    flex-direction: row;
-   /* border: solid blue 2px;  */
-   padding: 20px;
-   /* padding: 20px; */
-   /* border: solid black 2px;   */
+   padding: 15px;
+   padding-right: 20px;
    border-right: 3px solid lightblue;
-   text-align: right;
+   text-align: left;
    font-size: 12;
 }
+/* created a class that contains my contact info */
 
 .footer ul li {
    list-style-type: none;
@@ -149,7 +186,6 @@ file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg
    float: left;
    margin-top: 100px;
    margin-left: 20px; 
-   /* justify-content: space-between; */
 }
 
 
