@@ -1,7 +1,6 @@
 /* Selecting an element by tag name */
-@media {
-   (max-width: 600px)
-}
+
+
 
 @font-face{
    font-family: 'sara';
@@ -25,26 +24,26 @@
 /* styled the webpage background */
 .header {
    padding: 50px;
-   background-color: rgb(100, 121, 167); 
+   background-color: rgb(85, 122, 134); 
 }
 
 .header h1 {
    border-right: 3px solid lightblue; 
-   color: rgb(2, 18, 26);
+   color: black;
    padding: 5px;
    font-size: 25px;
    float: left;
-   background-color: rgb(100, 121, 167); 
-   width: 175px;
-   height: 65px;
+   background-color: rgb(85, 122, 134); 
+   width: 170px;
+   height: 60px;
    margin-top: -25px;
 }
 /* this tells the html code how to present "my portfilio" on the top of the page. */
 .header nav {
    color: (lightblue);
-   font-size: 25px;
+   font-size: 20px;
    float: right;
-   background-color: rgb(100, 121, 167);
+   background-color: rgb(85, 122, 134);
    margin-top: -25px;
    width: 405px;
    height: 50px;
@@ -52,7 +51,9 @@
 }
 
 a {
-   background-color: rgb(100, 121, 167);
+   background-color: rgb(85, 122, 134);
+   color: black;
+   padding-right: 13px;
 }
 
 .hero {
@@ -77,7 +78,7 @@ a {
 }
 
 .picture {
-   width: 210px;
+   width: 200px;
    height: 215px;
    padding: 20px;
    margin-left: 100px;
@@ -85,7 +86,7 @@ a {
 .head h2 {
    padding: 20px;
    border-right: 3px solid lightblue;
-   color: rgb(2, 18, 26);
+   color: black;
    text-align: left; 
    font-size: 50px;
    margin-top: 35px;
@@ -93,15 +94,15 @@ a {
    margin-bottom: 25px;
    margin-left: 100px;
    height: 150px;
-   width: 210px;
+   width: 200px;
 }
 
 .text p { 
-   color: rgb(0, 8, 8);
+   color: black;
    font-size: 25px;
    text-align: left;
    /* background-color: white; */
-   width: 850px;
+   width: 830px;
    height: 750px;
    margin-left: 25px;
    margin-top: 65px;
@@ -111,13 +112,11 @@ a {
 /* added in the section called about me */
 
 
-}
-
 .article{
    display: flex;
    flex-direction: row;
    /* border: solid blue 2px; */
-   padding: 20px;   
+   
 }
 /* contains all my place holders for my work */
 
@@ -170,7 +169,7 @@ a {
    padding-right: 20px;
    border-right: 3px solid lightblue;
    text-align: left;
-   font-size: 12;
+   font-size: 15px;
 }
 /* created a class that contains my contact info */
 
@@ -179,9 +178,9 @@ a {
    flex-direction: column;
    color:black;
    border-bottom: 3px solid rgb(252, 176, 235);
-   font-size: 20px;
+   font-size: 14px;
    padding-bottom: 10px;
-   margin-bottom: 25px;
+   /* margin-bottom: 25px; */
    text-align: right;
    float: left;
    margin-top: 100px;
