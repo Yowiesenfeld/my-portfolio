@@ -62,7 +62,7 @@ a {
 /* added in the hero  */
 
 /* designed top of the webpage so that it makes sense logically */
-/* file:///C:/Users/18454/Downloads/YO%20IS%20NOT%20GAY!!!!.svg */
+
 .main {
    display: flex;
    flex-direction: column;
@@ -73,8 +73,9 @@ a {
 
 .section {
    display: flex;
-   flex-direction: row;  
+   flex-wrap: wrap;  
 }
+/* added a flex box */
 
 .picture {
    width: 200px;
@@ -82,6 +83,7 @@ a {
    padding: 20px;
    margin-left: 100px;
 }
+/* added new section for my pics */
 .head h2 {
    padding: 20px;
    border-right: 3px solid lightblue;
@@ -113,9 +115,13 @@ a {
 
 .article{
    display: flex;
-   flex-direction: row;
-   /* border: solid blue 2px; */
-   
+   flex-wrap: wrap;
+}
+
+.pictures{
+   display: flex;
+    flex-wrap: wrap;
+    width: 800px;
 }
 /* contains all my place holders for my work */
 
@@ -142,27 +148,19 @@ a {
    align-content: space-around;
  } */
 
- /* .image-section{ */
-   /* display: flex; */
-   /* flex-direction: column;  */
-   /* background-position: top left, top right, bottom left, bottom right; */ 
-.image-section-1:hover { 
-   transform: scale(1.1); 
+ .image-section img{
+   height: 275px;
+   width: 275px;
+   margin: 44px;
  }
+   
+   
+.image-section: hover{
+   transform: scale(1.1)
+   }
 
- .image-section-2:hover {
-   transform: scale(1.1); 
- }
- .image-section-3:hover {
-   transform: scale(1.1); 
- }
- .image-section-4:hover {
-   transform: scale(1.1); 
- } 
- .figcaption{
-   margin-right: 40px;
-   font-size: 12px;
- }
+   
+ 
 /* all my pictures to be in place of my work */
 
 .footer{
@@ -192,3 +190,9 @@ a {
 
 
 /* having a hard time but i still want to save my progress */
+
+@media screen and (max-width: 480px) {
+   .text p{
+     width: 200px;
+   }
+}
