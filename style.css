@@ -50,8 +50,9 @@
 }
 
 a {
-   background-color: rgb(85, 122, 134);
+   /* background-color: rgb(85, 122, 134); */
    color: black;
+   text-decoration: none;
    padding-right: 13px;
 }
 
@@ -145,7 +146,7 @@ a {
 .footer{
    display: flex;
    flex-direction: row;
-   padding: 15px;
+   padding: 10px;
    padding-right: 30px;
    border-right: 3px solid lightblue;
    text-align: left;
@@ -175,3 +176,10 @@ a {
      width: 200px;
    }
 }
+
+.underlined-text {
+   color: blue; 
+   border-bottom: 60px solid rgb(252, 176, 235); 
+   text-decoration: underline; 
+}
+
